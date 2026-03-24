@@ -1,0 +1,37 @@
+[01:17:02.331] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[01:17:03.540] Server  ERROR   ⨯ TurbopackInternalError: Failed to restore task data (corrupted database or bug): Meta for <DiskFileSystem as FileSystem>::read (TaskId 152287))
+
+Debug info:
+- Failed to restore task data (corrupted database or bug): Meta for <DiskFileSystem as FileSystem>::read (TaskId 152287))
+  
+  Caused by:
+      0: Looking up data for TaskId 152287 from database failed
+      1: Unable to open static sorted file referenced from 00000564.meta
+      2: Unable to open static sorted file 00000560.sst
+      3: No such file or directory (os error 2)
+[01:23:06.682] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[05:46:05.191] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[23:34:57.316] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[30:37:37.856] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[31:27:41.485] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[31:27:42.100] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[31:49:39.020] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[31:55:53.906] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[32:09:57.470] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[32:11:07.269] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[34:01:15.536] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[34:02:24.717] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[106:24:32.934] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[270:50:02.881] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[270:53:33.108] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[271:06:30.897] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[271:10:00.530] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[271:14:30.420] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[271:14:34.688] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[271:14:37.138] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[272:08:16.435] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[466:08:18.170] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[466:08:33.748] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[466:08:44.179] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[466:09:07.531] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+[466:13:49.180] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
