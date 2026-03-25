@@ -7,42 +7,54 @@ export default function Experience() {
   const experiences = [
     {
       type: "work",
-      title: "Software Engineer",
+      title: "AI Computer Science Engineer (Freelancer)",
       company: "Drytis Inc.",
-      location: "New Delhi, India",
-      period: "Feb 2024 - Present",
+      location: "United States · Remote",
+      period: "Feb 2026 - Present",
       description: [
-        "Developing and maintaining backend APIs using Python and Django framework",
-        "Collaborating with frontend teams to integrate APIs and ensure seamless data flow",
-        "Writing optimized SQL queries and managing MySQL databases for efficient data storage and retrieval",
-        "Participating in code reviews and agile development processes to ensure code quality",
-        "Contributing to the design and implementation of new features and functionality",
+        "Integrated LLM APIs (OpenAI/Hugging Face) into backend workflows for content generation and evaluation systems",
+        "Designed structured prompts to generate consistent JSON outputs, improving response reliability",
+        "Built AI-powered backend services for summarization, evaluation, and automation workflows",
+        "Optimized LLM responses using prompt tuning and output validation techniques",
+        "Debugged and improved performance of REST APIs and backend systems",
       ]
     },
     {
       type: "work",
-      title: "Software Developer",
+      title: "Software Engineer",
       company: "Aster DM Healthcare",
       location: "Gurugram, India",
       period: "Jul 2025 - Dec 2025",
       description: [
-        "Assisted in the development of healthcare management systems using Django and JavaScript",
-        "Collaborated with cross-functional teams to design and implement new features",
-        "Wrote unit tests and participated in debugging and troubleshooting activities",
-        "Gained hands-on experience in RESTful API development and database management",
+        "Developed scalable backend services using Django REST Framework for healthcare applications",
+        "Designed APIs for dynamic patient workflows and questionnaire-based systems",
+        "Reduced API response latency by ~30% through query optimization and efficient data validation",
+        "Built secure and reliable backend systems handling sensitive healthcare data",
       ]
     },
     {
       type: "work",
-      title: "Software Developer",
+      title: "Software Engineer (Freelancer)",
+      company: "Remote",
+      location: "United States · Remote",
+      period: "Jan 2025 - Jun 2025",
+      description: [
+        "Built backend-heavy applications using Django and AWS infrastructure",
+        "Developed REST APIs and optimized backend performance for scalable deployments",
+        "Integrated frontend (React) with backend services for real-time applications",
+      ]
+    },
+    {
+      type: "work",
+      title: "Software Engineer",
       company: "Ciena India Pvt Ltd",
       location: "Gurugram, India",
       period: "Jan 2022 - Jul 2024",
       description: [
-        "Developed scalable microservices using Django REST Framework",
+        "Developed microservices using Django REST Framework",
         "Reduced deployment time by implementing CI/CD pipelines using GitHub Actions and Jenkins",
-        "Worked with AWS services (EC2, S3, IAM) for deployment and infrastructure management",
-        "Collaborated with DevOps teams on containerization and deployment workflows",
+        "Worked with AWS (EC2, S3, IAM) for deployment and infrastructure",
+        "Designed reusable backend components improving maintainability",
       ]
     }
   ];
@@ -59,29 +71,29 @@ export default function Experience() {
 
   const certifications = [
     {
-      name: "Python Programming",
-      issuer: "NPTEL",
-      year: "2022"
-    },
-    {
-      name: "Data Structures and Algorithms",
-      issuer: "NPTEL",
-      year: "2021"
+      name: "Full Stack Development with Generative AI",
+      issuer: "BossCoder Academy",
+      year: "2024 - 2025"
     }
   ];
 
   const achievements = [
     {
-      title: "NPTEL Elite Certification",
-      description: "Achieved elite certificate in Python Programming with distinction"
+      title: "800+ LeetCode Problems Solved",
+      description: "Strong problem-solving foundation with master-level algorithms and data structures expertise",
+      link: "https://leetcode.com/u/RamdeoYadav/"
     },
     {
-      title: "Academic Excellence",
-      description: "Consistent academic performance throughout B.Tech program"
+      title: "NIMCET AIR 332",
+      description: "Achieved All India Rank 332 in National Institute of Technology Entrance Test"
     },
     {
-      title: "Project Recognition",
-      description: "Successfully delivered multiple projects during internship at Aster DM Healthcare"
+      title: "Research Paper Published",
+      description: "Research paper published in EPRA Journal in computer science domain"
+    },
+    {
+      title: "Backend Performance Optimization",
+      description: "Consistently optimized systems achieving 30%+ improvements in API latency and throughput"
     }
   ];
 
@@ -121,7 +133,7 @@ export default function Experience() {
             <div className="space-y-6">
               {experiences.map((exp, index) => (
                 <motion.div
-                  key={exp.title}
+                  key={index}
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
@@ -177,7 +189,7 @@ export default function Experience() {
             <div className="space-y-6 mb-12">
               {education.map((edu, index) => (
                 <motion.div
-                  key={edu.degree}
+                  key={index}
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
@@ -226,7 +238,7 @@ export default function Experience() {
             <div className="space-y-4">
               {certifications.map((cert, index) => (
                 <motion.div
-                  key={cert.name}
+                  key={index}
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
@@ -274,9 +286,20 @@ export default function Experience() {
                   transition={{ duration: 0.6, delay: 0.6 + index * 0.1 }}
                   className="bg-white dark:bg-slate-800 rounded-xl p-5 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-yellow-500"
                 >
-                  <h4 className="font-semibold text-slate-900 dark:text-white mb-1">
-                    {achievement.title}
-                  </h4>
+                  {achievement.link ? (
+                    <a
+                      href={achievement.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold text-blue-600 dark:text-blue-400 hover:underline mb-1 inline-block"
+                    >
+                      {achievement.title}
+                    </a>
+                  ) : (
+                    <h4 className="font-semibold text-slate-900 dark:text-white mb-1">
+                      {achievement.title}
+                    </h4>
+                  )}
                   <p className="text-slate-600 dark:text-slate-400 text-sm">
                     {achievement.description}
                   </p>

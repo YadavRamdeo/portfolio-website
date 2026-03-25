@@ -30,27 +30,24 @@ export default function About() {
               Professional Summary
             </h3>
             <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-              Software Engineer with 2+ years of experience in API development, database management, and JavaScript programming.
-              Skilled in Python, Django, JavaScript, jQuery, and MySQL with hands-on experience in building RESTful APIs and dynamic web applications.
+              Software Engineer with 3+ years of experience specializing in <strong>Django-based application development and Generative AI integration</strong>. Experienced in building scalable systems using <strong>Django, REST APIs, and LLM-powered workflows</strong>, including prompt engineering and AI automation.
             </p>
             <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-              Demonstrated success in diverse projects including library management systems, pharmacy platforms, and social media applications.
-              Passionate about learning new technologies and contributing to innovative software solutions. Strong collaborative skills with experience
-              working in cross-functional teams to deliver high-quality software products.
+              Strong background in <strong>cloud deployment, database design (SQL & NoSQL), and system architecture</strong>, delivering high-performance and production-ready solutions. Proficient in designing resilient systems with CI/CD pipelines, containerization, and seamless AI capabilities integration across modern infrastructure.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mt-10">
               <div className="text-center p-4 bg-slate-50 dark:bg-slate-700 rounded-xl">
-                <div className="text-4xl font-bold text-blue-600 mb-2">2+</div>
+                <div className="text-4xl font-bold text-blue-600 mb-2">3+</div>
                 <div className="text-slate-600 dark:text-slate-300">Years Experience</div>
               </div>
               <div className="text-center p-4 bg-slate-50 dark:bg-slate-700 rounded-xl">
-                <div className="text-4xl font-bold text-purple-600 mb-2">5+</div>
-                <div className="text-slate-600 dark:text-slate-300">Projects Completed</div>
+                <div className="text-4xl font-bold text-purple-600 mb-2">15+</div>
+                <div className="text-slate-600 dark:text-slate-300">Projects Delivered</div>
               </div>
               <div className="text-center p-4 bg-slate-50 dark:bg-slate-700 rounded-xl">
-                <div className="text-4xl font-bold text-green-600 mb-2">3+</div>
-                <div className="text-slate-600 dark:text-slate-300">Technologies Mastered</div>
+                <div className="text-4xl font-bold text-green-600 mb-2">800+</div>
+                <div className="text-slate-600 dark:text-slate-300">LeetCode Problems</div>
               </div>
             </div>
           </motion.div>

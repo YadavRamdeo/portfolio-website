@@ -1,37 +1,994 @@
-[01:17:02.331] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[01:17:03.540] Server  ERROR   ⨯ TurbopackInternalError: Failed to restore task data (corrupted database or bug): Meta for <DiskFileSystem as FileSystem>::read (TaskId 152287))
+[00:00:01.817] Server  LOG     ✓ Ready in 1083ms
+[00:00:46.301] Server  LOG     ○ Compiling / ...
+[00:00:48.187] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:54.715] Server  LOG     ✓ Compiled in 158ms
+[00:03:54.866] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Software Engineer
+[00:04:23.902] Server  LOG     ✓ Compiled in 122ms
+[00:04:24.002] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Software Engineer
+[00:04:31.124] Server  LOG     ✓ Compiled in 226ms
+[00:05:33.653] Server  LOG     ✓ Compiled in 96ms
+[00:05:33.761] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                   target="_blank"
+  129 |                   rel="noopener noreferrer"
+  130 |                   className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
 
-Debug info:
-- Failed to restore task data (corrupted database or bug): Meta for <DiskFileSystem as FileSystem>::read (TaskId 152287))
-  
-  Caused by:
-      0: Looking up data for TaskId 152287 from database failed
-      1: Unable to open static sorted file referenced from 00000564.meta
-      2: Unable to open static sorted file 00000560.sst
-      3: No such file or directory (os error 2)
-[01:23:06.682] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[05:46:05.191] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[23:34:57.316] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[30:37:37.856] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[31:27:41.485] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[31:27:42.100] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[31:49:39.020] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[31:55:53.906] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[32:09:57.470] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[32:11:07.269] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[34:01:15.536] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[34:02:24.717] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[106:24:32.934] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[270:50:02.881] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[270:53:33.108] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[271:06:30.897] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[271:10:00.530] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[271:14:30.420] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[271:14:34.688] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[271:14:37.138] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[272:08:16.435] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[466:08:18.170] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[466:08:33.748] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[466:08:44.179] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[466:09:07.531] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
-[466:13:49.180] Server  ERROR   ⨯ Error: ENOENT: no such file or directory, open '/workspace/.next/dev/server/app/page/build-manifest.json'
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:05:33.761] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                   target="_blank"
+  129 |                   rel="noopener noreferrer"
+  130 |                   className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:05:35.494] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:05:35.494] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:05:50.495] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:05:50.495] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:05:52.072] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:05:52.072] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:06:24.516] Server  LOG     ✓ Compiled in 107ms
+[00:06:24.623] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:06:24.623] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:06:24.623] Browser ERROR   ./components/Hero.tsx:92:20
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                    ^
+  93 |               target="_blank"
+  94 |               rel="noopener noreferrer"
+  95 |               className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:06:24.623] Browser ERROR   ./components/Hero.tsx:92:21
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |               target="_blank"
+  94 |               rel="noopener noreferrer"
+  95 |               className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:06:26.587] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:06:26.587] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:06:26.587] Browser ERROR   ./components/Hero.tsx:92:20
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                    ^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:06:26.587] Browser ERROR   ./components/Hero.tsx:92:21
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:06:41.905] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:06:41.905] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:06:41.905] Browser ERROR   ./components/Hero.tsx:92:20
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                    ^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:06:41.905] Browser ERROR   ./components/Hero.tsx:92:21
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:06:43.637] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:06:43.637] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:06:43.637] Browser ERROR   ./components/Hero.tsx:92:20
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                    ^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:06:43.637] Browser ERROR   ./components/Hero.tsx:92:21
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:12.971] Server  ERROR   ⨯ ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+
+
+
+./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+
+
+
+./components/Hero.tsx:92:20
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                    ^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+
+
+
+./components/Hero.tsx:92:21
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+
+
+[00:07:13.156] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:13.156] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:13.156] Browser ERROR   ./components/Hero.tsx:92:20
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                    ^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:13.156] Browser ERROR   ./components/Hero.tsx:92:21
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:14.156] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:14.156] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:14.156] Browser ERROR   ./components/Hero.tsx:92:20
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                    ^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:14.156] Browser ERROR   ./components/Hero.tsx:92:21
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:14.156] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:14.156] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:14.156] Browser ERROR   ./components/Hero.tsx:92:20
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                    ^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:14.156] Browser ERROR   ./components/Hero.tsx:92:21
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:14.692] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:14.693] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:14.693] Browser ERROR   ./components/Hero.tsx:92:20
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                    ^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:14.693] Browser ERROR   ./components/Hero.tsx:92:21
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:14.801] Browser ERROR   uncaughtError: Error: ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+
+
+[00:07:14.986] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:14.986] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:14.986] Browser ERROR   ./components/Hero.tsx:92:20
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                    ^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:14.986] Browser ERROR   ./components/Hero.tsx:92:21
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:15.156] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:15.156] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:15.156] Browser ERROR   ./components/Hero.tsx:92:20
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                    ^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:15.156] Browser ERROR   ./components/Hero.tsx:92:21
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:15.156] Browser ERROR   ./components/Contact.tsx:127:24
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                        ^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:15.156] Browser ERROR   ./components/Contact.tsx:127:25
+Parsing ecmascript source code failed
+  125 |               <div className="flex gap-4">
+  126 |                 <a
+> 127 |                   href=\"https://linkedin.com/in/ramdeoyadav\"
+      |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  128 |                 target="_blank"
+  129 |                 rel="noopener noreferrer"
+  130 |                 className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Contact.tsx
+    ./app/page.tsx
+[00:07:15.156] Browser ERROR   ./components/Hero.tsx:92:20
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                    ^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:15.156] Browser ERROR   ./components/Hero.tsx:92:21
+Parsing ecmascript source code failed
+  90 |           >
+  91 |             <a
+> 92 |               href=\"https://github.com/ramdeo\"
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  93 |             target="_blank"
+  94 |             rel="noopener noreferrer"
+  95 |             className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/Hero.tsx
+    ./app/page.tsx
+[00:07:55.578] Server  LOG     ✓ Compiled in 94ms
+[00:07:56.454] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:57.165] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Software Engineer
+[00:08:19.271] Server  LOG     ✓ Compiled in 69ms
+[00:08:19.355] Server  LOG     ✓ Compiled in 71ms
+[00:22:52.139] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:52.389] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Software Engineer
+[00:23:35.030] Server  LOG     ✓ Compiled in 127ms
+[00:30:05.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:20.298] Server  LOG     ✓ Compiled in 114ms
+[00:30:46.751] Server  LOG     ✓ Compiled in 102ms
+[00:31:02.198] Server  LOG     ✓ Compiled in 53ms
+[00:31:33.261] Server  LOG     ✓ Compiled in 53ms
+[00:32:08.553] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:30.544] Server  LOG     ✓ Compiled in 42ms
+[00:34:32.272] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:36.557] Server  LOG     ✓ Compiled in 55ms
+[00:36:49.625] Server  LOG     ✓ Compiled in 67ms
+[00:37:45.707] Server  LOG     ✓ Compiled in 68ms
+[00:38:08.944] Server  LOG     ✓ Compiled in 55ms
+[00:39:55.032] Server  LOG     ✓ Compiled in 55ms
+[00:43:11.820] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:07.281] Server  LOG     ✓ Compiled in 58ms
+[00:45:14.755] Server  LOG     ✓ Compiled in 51ms
+[00:45:31.839] Server  LOG     ✓ Compiled in 48ms
+[00:45:50.929] Server  LOG     ✓ Compiled in 73ms
+[00:46:37.148] Server  LOG     ✓ Compiled in 96ms
+[00:46:49.711] Server  LOG     ✓ Compiled in 82ms
+[00:48:29.230] Server  LOG     ✓ Compiled in 93ms
+[00:48:32.936] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:41.628] Server  LOG     ✓ Compiled in 54ms
+[00:54:37.161] Server  LOG     ✓ Compiled in 65ms
+[00:56:43.640] Server  LOG     ✓ Compiled in 296ms
+[00:57:13.924] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:05.575] Server  LOG     ✓ Compiled in 47ms
+[01:05:10.239] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:24.854] Server  LOG     ✓ Compiled in 82ms
+[01:05:33.672] Server  LOG     ✓ Compiled in 93ms
+[01:08:25.239] Server  LOG     ✓ Compiled in 89ms
+[01:10:41.742] Server  LOG     ✓ Compiled in 63ms
+[01:13:50.241] Server  LOG     ✓ Compiled in 88ms
+[01:14:52.419] Server  LOG     ✓ Compiled in 72ms
+[01:16:31.235] Server  LOG     ✓ Compiled in 113ms
+[01:16:45.562] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:01.300] Server  LOG     ✓ Compiled in 153ms
+[01:22:35.809] Server  LOG     ✓ Compiled in 87ms
+[01:24:05.696] Server  LOG     ✓ Compiled in 115ms
+[01:25:29.926] Server  LOG     ✓ Compiled in 198ms
+[01:26:12.776] Server  LOG     ✓ Compiled in 265ms
+[01:27:10.617] Server  LOG     ✓ Compiled in 200ms
+[01:31:09.755] Server  LOG     ✓ Compiled in 86ms
+[01:31:40.147] Server  LOG     ✓ Compiled in 73ms
+[01:32:36.216] Server  LOG     ✓ Compiled in 59ms
+[01:33:09.699] Server  LOG     ✓ Compiled in 69ms
+[01:33:27.831] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:42.039] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:36:16.606] Server  LOG     ✓ Compiled in 51ms
+[01:38:09.416] Server  ERROR   Error submitting contact form: Error: connect ECONNREFUSED 127.0.0.1:3306
+[01:38:23.063] Server  ERROR   Error submitting contact form: Error: connect ECONNREFUSED 127.0.0.1:3306

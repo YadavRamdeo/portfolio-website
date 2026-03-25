@@ -20,17 +20,23 @@ const iconMap: Record<string, React.ReactNode> = {
 const defaultIcon = <Braces size={32} />;
 
 const categoryIcons: Record<string, React.ReactNode> = {
+  'GenAI': <Code2 size={32} />,
+  'Backend': <Braces size={32} />,
   'Frontend': <Code2 size={32} />,
-  'Development': <Braces size={32} />,
   'Database': <Database size={32} />,
-  'Tools & Methods': <Wrench size={32} />,
+  'Analytics': <Database size={32} />,
+  'Cloud': <Database size={32} />,
+  'DevOps': <Wrench size={32} />,
 };
 
 const categoryColors: Record<string, string> = {
-  'Frontend': 'blue',
-  'Development': 'purple',
+  'GenAI': 'pink',
+  'Backend': 'blue',
+  'Frontend': 'purple',
   'Database': 'green',
-  'Tools & Methods': 'orange',
+  'Analytics': 'orange',
+  'Cloud': 'orange',
+  'DevOps': 'purple',
 };
 
 const colorClasses: Record<string, string> = {
@@ -38,21 +44,54 @@ const colorClasses: Record<string, string> = {
   'purple': 'from-purple-500 to-purple-600',
   'green': 'from-green-500 to-green-600',
   'orange': 'from-orange-500 to-orange-600',
+  'pink': 'from-pink-500 to-pink-600',
 };
 
 export default function Skills() {
   // Static skills data as fallback
   const skills: Skill[] = [
-    { id: 1, name: 'Python', category: 'Development', level: 90 },
-    { id: 2, name: 'Django', category: 'Development', level: 85 },
-    { id: 3, name: 'JavaScript', category: 'Frontend', level: 85 },
-    { id: 4, name: 'jQuery', category: 'Frontend', level: 80 },
-    { id: 5, name: 'MySQL', category: 'Database', level: 85 },
-    { id: 6, name: 'RESTful APIs', category: 'Development', level: 88 },
-    { id: 7, name: 'HTML', category: 'Frontend', level: 90 },
-    { id: 8, name: 'CSS', category: 'Frontend', level: 85 },
-    { id: 9, name: 'Git', category: 'Tools & Methods', level: 80 },
-    { id: 10, name: 'API Documentation', category: 'Tools & Methods', level: 82 },
+    // Languages & Core
+    { id: 1, name: 'Python', category: 'Backend', level: 95 },
+    { id: 2, name: 'JavaScript', category: 'Frontend', level: 85 },
+
+    // Frontend Development
+    { id: 27, name: 'React.js', category: 'Frontend', level: 85 },
+    { id: 28, name: 'TypeScript', category: 'Frontend', level: 80 },
+    { id: 29, name: 'Tailwind CSS', category: 'Frontend', level: 85 },
+    { id: 30, name: 'HTML/CSS', category: 'Frontend', level: 90 },
+    { id: 31, name: 'Responsive Design', category: 'Frontend', level: 85 },
+
+    // Backend Development
+    { id: 3, name: 'Django & DRF', category: 'Backend', level: 90 },
+    { id: 4, name: 'FastAPI', category: 'Backend', level: 90 },
+    { id: 5, name: 'Flask', category: 'Backend', level: 88 },
+    { id: 6, name: 'REST APIs', category: 'Backend', level: 92 },
+    { id: 7, name: 'Microservices Architecture', category: 'Backend', level: 85 },
+
+    // Databases
+    { id: 8, name: 'PostgreSQL & MySQL', category: 'Database', level: 90 },
+    { id: 9, name: 'MongoDB', category: 'Database', level: 88 },
+    { id: 10, name: 'Redis', category: 'Database', level: 85 },
+    { id: 11, name: 'System Design', category: 'Database', level: 85 },
+
+    // Cloud & DevOps
+    { id: 12, name: 'AWS (EC2, S3, IAM)', category: 'Cloud', level: 85 },
+    { id: 13, name: 'Docker & Containerization', category: 'Cloud', level: 85 },
+    { id: 14, name: 'GitHub Actions', category: 'Cloud', level: 85 },
+    { id: 15, name: 'Jenkins', category: 'Cloud', level: 80 },
+    { id: 16, name: 'Git & Version Control', category: 'Cloud', level: 90 },
+    { id: 17, name: 'Linux', category: 'Cloud', level: 85 },
+
+    // GenAI & LLMs
+    { id: 18, name: 'LLM APIs & Integration', category: 'GenAI', level: 90 },
+    { id: 19, name: 'Prompt Engineering', category: 'GenAI', level: 88 },
+    { id: 21, name: 'JSON Output Optimization', category: 'GenAI', level: 85 },
+    { id: 23, name: 'AI-Powered Backend Workflows', category: 'GenAI', level: 85 },
+
+    // Additional Concepts
+    { id: 24, name: 'API Optimization', category: 'Analytics', level: 88 },
+    { id: 25, name: 'Performance Optimization', category: 'Analytics', level: 88 },
+    { id: 26, name: 'Scalable System Design', category: 'Analytics', level: 85 },
   ];
 
   // Group skills by category
@@ -64,8 +103,9 @@ export default function Skills() {
     groupedSkills[skill.category].push(skill);
   });
 
-  // Get unique categories and sort them
-  const categories = Object.keys(groupedSkills).sort();
+  // Get unique categories in desired order
+  const categoryOrder = ['Backend', 'Frontend', 'Database', 'Cloud', 'GenAI', 'Analytics', 'DevOps'];
+  const categories = categoryOrder.filter(cat => groupedSkills[cat]);
 
   // Get icon for category
   const getIconForCategory = (category: string) => {

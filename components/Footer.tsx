@@ -32,7 +32,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://linkedin.com/in/ramdeo-yadav"
+                href="https://www.linkedin.com/in/ramdeoyadav/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-slate-800 hover:bg-blue-600 rounded-lg transition-colors"
@@ -40,7 +40,7 @@ export default function Footer() {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://github.com/ramdeoyadav"
+                href="https://github.com/YadavRamdeo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors"

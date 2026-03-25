@@ -9,53 +9,53 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Library Management System",
-      description: "A comprehensive web-based library management system that allows users to search for books, manage borrowing records, and track book availability. Features include user authentication, book catalog management, and administrative dashboard.",
-      category: "Web Application",
-      technologies: ["Django", "Python", "MySQL", "HTML", "CSS", "JavaScript"],
-      image: "📚",
+      title: "NLP-Based Answer Evaluation System",
+      description: "Built AI-powered backend using NLP and cosine similarity for automated answer evaluation. Designed REST APIs for concurrent processing of large-scale responses. Implemented scalable evaluation engine with quality metrics and real-time feedback mechanisms.",
+      category: "Backend",
+      technologies: ["NLP", "Cosine Similarity", "REST APIs", "FastAPI", "Python", "Concurrent Processing"],
+      image: "📝",
       projectUrl: "#",
       githubUrl: "#"
     },
     {
-      title: "Pharmacy Management System",
-      description: "Developed a pharmacy platform with features for medication inventory tracking, prescription management, and customer records. Implemented RESTful APIs for seamless integration with frontend systems.",
-      category: "Web Application",
-      technologies: ["Django", "Python", "MySQL", "jQuery", "JavaScript", "REST APIs"],
-      image: "💊",
+      title: "Inventory Management System",
+      description: "Developed backend using Django REST APIs with React integration. Simplified complex data flows into efficient and user-friendly APIs. Implemented inventory tracking, stock management, and real-time synchronization between frontend and backend.",
+      category: "Backend",
+      technologies: ["Django", "REST APIs", "React", "PostgreSQL", "Real-time Updates", "System Design"],
+      image: "📦",
       projectUrl: "#",
       githubUrl: "#"
     },
     {
-      title: "Social Media Application",
-      description: "Built a social media platform with user profiles, post creation, commenting system, and real-time notifications. Integrated database for efficient data management and user interactions.",
-      category: "Web Application",
-      technologies: ["Django", "Python", "JavaScript", "jQuery", "MySQL"],
-      image: "👥",
+      title: "AI-Powered Content Generation Backend",
+      description: "Integrated LLM APIs (OpenAI/Hugging Face) into backend workflows for content generation and evaluation. Designed structured prompts to generate consistent JSON outputs with validation. Built microservices for summarization, evaluation, and automation workflows.",
+      category: "GenAI",
+      technologies: ["LLM APIs", "Django", "OpenAI", "Hugging Face", "JSON Optimization", "Microservices"],
+      image: "🤖",
       projectUrl: "#",
       githubUrl: "#"
     },
     {
-      title: "Portfolio Website",
-      description: "Designed and developed a personal portfolio website showcasing projects and skills. Implemented responsive design and smooth user experience using modern web technologies.",
-      category: "Web Application",
-      technologies: ["HTML", "CSS", "JavaScript", "jQuery"],
-      image: "💼",
+      title: "High-Performance REST API Framework",
+      description: "Designed and implemented scalable REST API framework using FastAPI for handling concurrent requests. Optimized query performance with database indexing and caching. Implemented request validation, error handling, and comprehensive logging for production-grade systems.",
+      category: "Backend",
+      technologies: ["FastAPI", "Redis", "PostgreSQL", "Performance Optimization", "Caching", "Logging"],
+      image: "⚡",
       projectUrl: "#",
       githubUrl: "#"
     },
     {
-      title: "E-commerce API",
-      description: "Developed RESTful APIs for an e-commerce platform including product catalog, user authentication, shopping cart, and order management. Focused on security, performance, and scalability.",
-      category: "Development",
-      technologies: ["Python", "Django REST Framework", "MySQL", "JWT"],
-      image: "🛍️",
+      title: "Healthcare Data Processing Pipeline",
+      description: "Developed scalable healthcare backend system for processing sensitive patient data. Designed APIs for dynamic workflows and questionnaire systems. Implemented data validation, security compliance, and performance optimization achieving 30% latency reduction.",
+      category: "Backend",
+      technologies: ["Django", "REST APIs", "Healthcare Data", "PostgreSQL", "Security", "Performance"],
+      image: "🏥",
       projectUrl: "#",
       githubUrl: "#"
     }
   ];
 
-  const categories = ["All", "Web Application", "Development"];
+  const categories = ["All", "Backend", "GenAI"];
 
   const filteredProjects = filter === "All"
     ? projects
@@ -91,11 +91,10 @@ export default function Projects() {
             <button
               key={category}
               onClick={() => setFilter(category)}
-              className={`px-4 py-2 rounded-lg font-medium transition-all ${
-                filter === category
-                  ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg"
-                  : "bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600"
-              }`}
+              className={`px-4 py-2 rounded-lg font-medium transition-all ${filter === category
+                ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg"
+                : "bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600"
+                }`}
             >
               {category}
             </button>

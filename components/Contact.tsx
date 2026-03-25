@@ -124,7 +124,7 @@ export default function Contact() {
               </h4>
               <div className="flex gap-4">
                 <a
-                  href="https://linkedin.com/in/ramdeo-yadav"
+                  href="https://linkedin.com/in/ramdeoyadav"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-4 bg-[#0077b5] text-white rounded-xl hover:bg-[#006396] transition-colors shadow-lg"
@@ -132,7 +132,7 @@ export default function Contact() {
                   <Linkedin size={28} />
                 </a>
                 <a
-                  href="https://github.com/ramdeoyadav"
+                  href="https://github.com/YadavRamdeo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-4 bg-slate-800 text-white rounded-xl hover:bg-slate-700 transition-colors shadow-lg"
@@ -256,8 +256,8 @@ export default function Contact() {
               </div>
             </form>
           </motion.div>
-        </div>
-      </div>
-    </section>
+        </div >
+      </div >
+    </section >
   );
 }

@@ -25,14 +25,18 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto text-center">
           {/* Greeting */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="mb-6"
+            className="mb-6 overflow-hidden"
           >
-            <span className="inline-block px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
-              Welcome to my portfolio
-            </span>
+            <motion.span
+              animate={{ x: ["-100%", "100%"] }}
+              transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
+              className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 text-white rounded-full text-sm font-bold tracking-wide shadow-lg"
+            >
+              ✨ Welcome to my portfolio ✨
+            </motion.span>
           </motion.div>
 
           {/* Main Heading */}
@@ -52,19 +56,41 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.7 }}
             className="text-xl md:text-2xl text-gray-600 mb-8"
           >
-            Software Engineer
+            Software Engineer | GenAI Integration Specialist | Data Analyst
           </motion.p>
 
           {/* Description */}
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.9 }}
-            className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto"
+            className="mb-12 max-w-3xl mx-auto"
           >
-            Skilled in Python, Django, JavaScript, jQuery, and MySQL. Proven track record in API development,
-            database management, and collaborative software development.
-          </motion.p>
+            <motion.p
+              className="text-lg leading-relaxed"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.8, delay: 1 }}
+            >
+              <span className="text-gray-700 dark:text-gray-300">Software Engineer with 3+ years of experience in </span>
+              <motion.span
+                animate={{ color: ["#3b82f6", "#8b5cf6", "#3b82f6"] }}
+                transition={{ duration: 3, repeat: Infinity }}
+                className="font-bold text-lg"
+              >
+                Django, REST API development, and Generative AI integration
+              </motion.span>
+              <span className="text-gray-700 dark:text-gray-300">. Skilled in building scalable, data-driven applications with expertise in </span>
+              <motion.span
+                animate={{ color: ["#8b5cf6", "#3b82f6", "#8b5cf6"] }}
+                transition={{ duration: 3, repeat: Infinity, delay: 0.5 }}
+                className="font-bold text-lg"
+              >
+                LLMs, cloud deployment, databases, and system design
+              </motion.span>
+              <span className="text-gray-700 dark:text-gray-300">.</span>
+            </motion.p>
+          </motion.div>
 
           {/* CTA Buttons */}
           <motion.div
@@ -89,7 +115,7 @@ export default function Hero() {
             className="flex justify-center gap-6"
           >
             <a
-              href="https://github.com"
+              href="https://github.com/YadavRamdeo"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
@@ -98,7 +124,7 @@ export default function Hero() {
               <Github className="h-5 w-5 text-gray-700 hover:text-primary-600" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/ramdeoyadav"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
@@ -115,11 +141,12 @@ export default function Hero() {
             </a>
           </motion.div>
         </div>
-      </div>
+      </div >
 
       {/* Scroll Indicator */}
-      <motion.div
-        initial={{ opacity: 0, y: -20 }}
+      < motion.div
+        initial={{ opacity: 0, y: -20 }
+        }
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.5, duration: 0.6 }}
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
@@ -128,7 +155,7 @@ export default function Hero() {
           <span className="text-sm mb-2">Scroll Down</span>
           <ArrowDown className="h-5 w-5 animate-bounce" />
         </a>
-      </motion.div>
-    </section>
+      </motion.div >
+    </section >
   );
 }
